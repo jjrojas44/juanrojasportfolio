@@ -383,7 +383,7 @@ p {
 # Hero
 --------------------------------------------------------------*/
 #hero {
-  background: url("../img/earth.jpg") repeat scroll center center/cover;
+  background: url("/img/earth_auto_x2\ \(1\).jpg") repeat scroll center center/cover;
   height: 100vh;
   width: 100%;
 }
@@ -415,15 +415,21 @@ p {
   font-weight: 500;
 }
 
-.hero-content .list-social li {
+.hero-content .list-item li {
   float: left;
   margin-right: 20px;
+  
+
 }
 
-.hero-content .list-social li i {
-  color: #fff;
+.hero-content .list-item li i {
+  color: rgb(255, 255, 255);
   font-size: 15px;
+  
 }
+
+
+
 
 /*--------------------------------------------------------------
 # Breadcrumbs
@@ -913,7 +919,7 @@ blockquote {
 # Footer
 --------------------------------------------------------------*/
 #footer {
-  background: #f7f7f7;
+  background: rgb(255, 255, 255);
   padding-top: 50px;
   padding-bottom: 50px;
 }
